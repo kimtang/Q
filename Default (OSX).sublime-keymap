@@ -1,0 +1,13 @@
+[
+	{ "keys": ["ctrl+e"], "command": "q", "args": {"scope": "selection"},
+	  "context":[{ "key": "selector", "operator": "equal", "operand": "source.q" }] },
+
+	{ "keys": ["ctrl+enter"], "command": "q", "args": {"scope": "lines"},
+	  "context":[{ "key": "selector", "operator": "equal", "operand": "source.q" }] },
+	
+	{ "keys": ["ctrl+q","ctrl+c"], "command": "q_chart",
+	  "context":[{ "key": "selector", "operator": "equal", "operand": "source.q" }] },
+
+	{ "keys": ["ctrl+q","ctrl+s"], "command": "q_change_server",
+	  "context":[{ "key": "selector", "operator": "equal", "operand": "source.q" }] }	
+]
