@@ -14,7 +14,7 @@
 		  "comment": "string"
 		},
 		{ 
-		  "name": "comment.block.source.q",
+		  "name": "comment.block.documentation",
 		  "begin": "^/[ ]*$",
 		  "end" : "^\\[ ]*$",
 		  "comment": "string"
