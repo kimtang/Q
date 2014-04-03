@@ -6,6 +6,7 @@ ${1:func}: { [${2:a};${3:b};${4:c};${5:d};${6:e};${7:f}]
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>func6</tabTrigger>
+	<scope>source.q</scope>	
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>

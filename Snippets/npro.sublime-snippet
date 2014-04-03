@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+args:.Q.def[`name`port!("${1:name}";${2:8888});].Q.opt .z.x
+
+/ remove this line when using in production
+/ ${1}:localhost:${2}::
+{ if[not x=0; @[x;"\\\\\\\\";()]]; value"\\\\p ${2}"; } @[hopen;`:localhost:${2};0];
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>npro</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.q</scope>
+</snippet>
